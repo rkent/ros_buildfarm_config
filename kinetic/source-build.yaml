@@ -7,12 +7,12 @@ jenkins_commit_job_priority: 57
 jenkins_job_timeout: 120
 jenkins_pull_request_job_priority: 47
 notifications:
-  committers: true
+  committers: false
   compiler_warnings: true
   emails:
-  - ros-buildfarm-kinetic@googlegroups.com
-  - tfoote+buildfarm@osrfoundation.org
-  maintainers: true
+  - ros-buildfarm-kinetic@rosdabbler.com
+  - tfoote+buildfarm@rosdabbler.com
+  maintainers: false
 repositories:
   keys:
   - |

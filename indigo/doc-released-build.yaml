@@ -6,8 +6,8 @@ jenkins_job_priority: 89
 jenkins_job_timeout: 30
 notifications:
   emails:
-  - ros-buildfarm-indigo@googlegroups.com
-  - tfoote+buildfarm@osrfoundation.org
+  - ros-buildfarm-indigo@rosdabbler.com
+  - tfoote+buildfarm@rosdabbler.com
 targets:
   ubuntu:
     trusty:

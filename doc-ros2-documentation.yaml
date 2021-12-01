@@ -10,7 +10,7 @@ jenkins_job_priority: 80
 jenkins_job_timeout: 30
 notifications:
   emails:
-  - clalancette@openrobotics.org
+  - clalancette@rosdabbler.com
 type: doc-build
 upload_credential_id: jenkins-agent
 upload_host: docs.ros.org

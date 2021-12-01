@@ -8,9 +8,9 @@ jenkins_source_job_priority: 66
 jenkins_source_job_timeout: 30
 notifications:
   emails:
-  - ros-buildfarm-lunar@googlegroups.com
-  - mikael+buildfarm@osrfoundation.org
-  maintainers: true
+  - ros-buildfarm-lunar@rosdabbler.com
+  - mikael+buildfarm@rosdabbler.com
+  maintainers: false
 package_blacklist:
 - mapviz
 - octovis

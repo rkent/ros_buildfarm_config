@@ -6,8 +6,8 @@ jenkins_job_priority: 88
 jenkins_job_timeout: 30
 notifications:
   emails:
-  - ros-buildfarm-jade@googlegroups.com
-  - william+buildfarm@osrfoundation.org
+  - ros-buildfarm-jade@rosdabbler.com
+  - william+buildfarm@rosdabbler.com
 targets:
   ubuntu:
     trusty:

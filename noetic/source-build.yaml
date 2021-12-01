@@ -8,12 +8,12 @@ jenkins_commit_job_priority: 54
 jenkins_job_timeout: 120
 jenkins_pull_request_job_priority: 44
 notifications:
-  committers: true
+  committers: false
   compiler_warnings: true
   emails:
-  - ros-buildfarm-noetic@googlegroups.com
-  - sloretz+buildfarm@openrobotics.org
-  maintainers: true
+  - ros-buildfarm-noetic@rosdabbler.com
+  - sloretz+buildfarm@rosdabbler.com
+  maintainers: false
 repositories:
   keys:
   - |

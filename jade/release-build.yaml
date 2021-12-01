@@ -8,9 +8,9 @@ jenkins_source_job_priority: 68
 jenkins_source_job_timeout: 30
 notifications:
   emails:
-  - ros-buildfarm-jade@googlegroups.com
-  - william+buildfarm@osrfoundation.org
-  maintainers: true
+  - ros-buildfarm-jade@rosdabbler.com
+  - william+buildfarm@rosdabbler.com
+  maintainers: false
 sync:
   package_count: 1100
 repositories:

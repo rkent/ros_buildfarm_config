@@ -5,11 +5,11 @@ jenkins_commit_job_priority: 59
 jenkins_job_timeout: 120
 jenkins_pull_request_job_priority: 49
 notifications:
-  committers: true
+  committers: false
   emails:
-  - ros-buildfarm-indigo@googlegroups.com
-  - tfoote+buildfarm@osrfoundation.org
-  maintainers: true
+  - ros-buildfarm-indigo@rosdabbler.com
+  - tfoote+buildfarm@rosdabbler.com
+  maintainers: false
 repositories:
   keys:
   - |

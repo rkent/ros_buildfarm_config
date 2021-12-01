@@ -8,12 +8,12 @@ jenkins_commit_job_priority: 55
 jenkins_job_timeout: 120
 jenkins_pull_request_job_priority: 45
 notifications:
-  committers: true
+  committers: false
   compiler_warnings: true
   emails:
-  - ros-buildfarm-melodic@googlegroups.com
-  - clalancette+buildfarm@osrfoundation.org
-  maintainers: true
+  - ros-buildfarm-melodic@rosdabbler.com
+  - clalancette+buildfarm@rosdabbler.com
+  maintainers: false
 repositories:
   keys:
   - |

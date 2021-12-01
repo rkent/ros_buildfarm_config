@@ -8,8 +8,8 @@ jenkins_job_priority: 87
 jenkins_job_timeout: 30
 notifications:
   emails:
-  - ros-buildfarm-kinetic@googlegroups.com
-  - tfoote+buildfarm@osrfoundation.org
+  - ros-buildfarm-kinetic@rosdabbler.com
+  - tfoote+buildfarm@rosdabbler.com
 targets:
   ubuntu:
     xenial:

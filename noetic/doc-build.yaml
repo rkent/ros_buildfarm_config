@@ -10,9 +10,9 @@ jenkins_job_timeout: 120
 notifications:
   committers: false
   emails:
-  - ros-buildfarm-noetic@googlegroups.com
-  - sloretz+buildfarm@openrobotics.org
-  maintainers: true
+  - ros-buildfarm-noetic@rosdabbler.com
+  - sloretz+buildfarm@rosdabbler.com
+  maintainers: false
 repositories:
   keys:
   - |

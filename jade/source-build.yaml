@@ -5,11 +5,11 @@ jenkins_commit_job_priority: 58
 jenkins_job_timeout: 120
 jenkins_pull_request_job_priority: 48
 notifications:
-  committers: true
+  committers: false
   emails:
-  - ros-buildfarm-jade@googlegroups.com
-  - william+buildfarm@osrfoundation.org
-  maintainers: true
+  - ros-buildfarm-jade@rosdabbler.com
+  - william+buildfarm@rosdabbler.com
+  maintainers: false
 repositories:
   urls:
   - http://repositories.ros.org/ubuntu/testing

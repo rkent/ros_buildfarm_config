@@ -8,9 +8,9 @@ jenkins_source_job_priority: 69
 jenkins_source_job_timeout: 30
 notifications:
   emails:
-  - ros-buildfarm-indigo@googlegroups.com
-  - tfoote+buildfarm@osrfoundation.org
-  maintainers: true
+  - ros-buildfarm-indigo@rosdabbler.com
+  - tfoote+buildfarm@rosdabbler.com
+  maintainers: false
 sync:
   package_count: 2500
 repositories:

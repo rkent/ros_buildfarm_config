@@ -7,8 +7,8 @@ distributions:
 #      default: indigo/doc-build.yaml
 #      released-packages-without-doc-job: indigo/doc-released-build.yaml
 #    notification_emails:
-#    - ros-buildfarm-indigo@googlegroups.com
-#    - tfoote+buildfarm@osrfoundation.org
+#    - ros-buildfarm-indigo@rosdabbler.com
+#    - tfoote+buildfarm@rosdabbler.com
 #    release_builds:
 #      arm: indigo/release-armhf-build.yaml
 #      default: indigo/release-build.yaml
@@ -19,8 +19,8 @@ distributions:
 #      default: jade/doc-build.yaml
 #      released-packages-without-doc-job: jade/doc-released-build.yaml
 #    notification_emails:
-#    - ros-buildfarm-jade@googlegroups.com
-#    - william+buildfarm@osrfoundation.org
+#    - ros-buildfarm-jade@rosdabbler.com
+#    - william+buildfarm@rosdabbler.com
 #    release_builds:
 #      arm: jade/release-armhf-build.yaml
 #      default: jade/release-build.yaml
@@ -31,8 +31,8 @@ distributions:
       default: kinetic/doc-build.yaml
       released-packages-without-doc-job: kinetic/doc-released-build.yaml
     notification_emails:
-    - ros-buildfarm-kinetic@googlegroups.com
-    - tfoote+buildfarm@osrfoundation.org
+    - ros-buildfarm-kinetic@rosdabbler.com
+    - tfoote+buildfarm@rosdabbler.com
     release_builds:
       default: kinetic/release-build.yaml
 #      dj: kinetic/release-jessie-build.yaml
@@ -47,8 +47,8 @@ distributions:
 #      default: lunar/doc-build.yaml
 #      released-packages-without-doc-job: lunar/doc-released-build.yaml
 #    notification_emails:
-#    - ros-buildfarm-lunar@googlegroups.com
-#    - clalancette+buildfarm@osrfoundation.org
+#    - ros-buildfarm-lunar@rosdabbler.com
+#    - clalancette+buildfarm@rosdabbler.com
 #    release_builds:
 #      default: lunar/release-build.yaml
 #      ds: lunar/release-stretch-build.yaml
@@ -62,8 +62,8 @@ distributions:
       default: melodic/doc-build.yaml
       released-packages-without-doc-job: melodic/doc-released-build.yaml
     notification_emails:
-    - ros-buildfarm-melodic@googlegroups.com
-    - clalancette+buildfarm@osrfoundation.org
+    - ros-buildfarm-melodic@rosdabbler.com
+    - clalancette+buildfarm@rosdabbler.com
     release_builds:
       default: melodic/release-build.yaml
 #      ds: melodic/release-stretch-build.yaml
@@ -78,8 +78,8 @@ distributions:
       default: noetic/doc-build.yaml
       released-packages-without-doc-job: noetic/doc-released-build.yaml
     notification_emails:
-    - ros-buildfarm-noetic@googlegroups.com
-    - sloretz+buildfarm@openrobotics.org
+    - ros-buildfarm-noetic@rosdabbler.com
+    - sloretz+buildfarm@rosdabbler.com
     release_builds:
       default: noetic/release-build.yaml
       db: noetic/release-buster-build.yaml
@@ -93,11 +93,11 @@ doc_builds:
   independent-packages: doc-independent-build.yaml
   rosindex: doc-rosindex.yaml
   ros2doc: doc-ros2-documentation.yaml
-jenkins_url: https://build.ros.org
+jenkins_url: http://ubutower.caspia.net
 notification_emails:
-- ros-buildfarm@googlegroups.com
-- steven+build.ros.org@openrobotics.org
-- tfoote+buildfarm@osrfoundation.org
+- ros-buildfarm@rosdabbler.com
+- steven+build.ros.org@rosdabbler.com
+- tfoote+buildfarm@rosdabbler.com
 prerequisites:
   debian_repositories:
   - http://repositories.ros.org/ubuntu/building
