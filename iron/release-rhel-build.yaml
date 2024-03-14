@@ -12,7 +12,7 @@ jenkins_source_job_priority: 74
 jenkins_source_job_timeout: 30
 notifications:
   emails:
-  - yadunund+build.ros2.org@openrobotics.org
+  - kent@caspia.com
   maintainers: false
 package_dependency_behavior:
   run_package_tests: false

@@ -12,9 +12,8 @@ jenkins_source_job_priority: 70
 jenkins_source_job_timeout: 30
 notifications:
   emails:
-  - steven+build.ros2.org@openrobotics.org
-  - ros2-buildfarm-rolling@googlegroups.com
-  maintainers: true
+  - kent@caspia.com
+  maintainers: false
 package_dependency_behavior:
   include_test_dependencies: false
   run_package_tests: false

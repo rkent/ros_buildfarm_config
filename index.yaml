@@ -24,8 +24,7 @@ distributions:
     doc_builds:
       default: humble/doc-build.yaml
     notification_emails:
-    - audrow+build.ros2.org@openrobotics.org
-    - ros2-buildfarm-humble@googlegroups.com
+    - kent@caspia.com
     release_builds:
       default: humble/release-build.yaml
       rhel: humble/release-rhel-build.yaml
@@ -53,8 +52,7 @@ distributions:
     doc_builds:
       default: iron/doc-build.yaml
     notification_emails:
-    - yadunund+build.ros2.org@openrobotics.org
-    - ros2-buildfarm-iron@googlegroups.com
+    - kent@caspia.com
     release_builds:
       default: iron/release-build.yaml
       rhel: iron/release-rhel-build.yaml
@@ -84,8 +82,7 @@ distributions:
     doc_builds:
       default: rolling/doc-build.yaml
     notification_emails:
-    - steven+build.ros2.org@openrobotics.org
-    - ros2-buildfarm-rolling@googlegroups.com
+    - kent@caspia.com
     release_builds:
       default: rolling/release-build.yaml
       rhel: rolling/release-rhel-build.yaml
@@ -94,7 +91,7 @@ distributions:
       default: rolling/source-build.yaml
 jenkins_url: https://build.ros2.org
 notification_emails:
-- steven+build.ros2.org@openrobotics.org
+- kent@caspia.com
 prerequisites:
   debian_repositories:
   - http://repo.ros2.org/ubuntu/building

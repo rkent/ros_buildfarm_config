@@ -10,7 +10,7 @@ jenkins_job_timeout: 120
 notifications:
   committers: false
   emails:
-  - clalancette+buildfarm@osrfoundation.org
+  - kent@caspia.com
   maintainers: false
 repositories:
   keys:
