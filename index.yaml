@@ -17,7 +17,7 @@ distributions:
       default: rolling/doc-build.yaml
     notification_emails:
     - kent@caspia.com
-jenkins_url: https://build.ros2.org
+jenkins_url: http://ubutower.local:8080
 notification_emails:
 - kent@caspia.com
 prerequisites:
